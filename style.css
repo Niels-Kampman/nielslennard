@@ -1,0 +1,88 @@
+.faq {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.faq div {
+  flex: 0 32%;
+  height: 100px;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.faq_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  width: 395px;
+  min-height: 211px;
+}
+
+.question {
+  align-self: stretch;
+  text-align: center;
+  margin-top: 24px;
+  width: 100%;
+  font: 700 18px/150% Roboto, sans-serif;
+
+}
+
+.answer {
+  align-self: stretch;
+  text-align: center;
+  width: 100%;
+}
+
+.linkjes {
+  text-decoration: none;
+}
+
+.logo {
+  min-height: 48px;
+  min-width: 48px;
+  background-image: url('https://dummyimage.com/48x48/000/fff');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+}
+
+.oo_profiel {
+  min-height: 48px;
+  min-width: 48px;
+  background-image: url('https://dummyimage.com/48x48/000/fff');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+}
+
+.oo_name {
+  align-self: stretch;
+  text-align: center;
+  margin-top: 24px;
+  width: 100%;
+  font: 700 18px/150% Roboto, sans-serif;
+
+}
+
+.oo_disc {
+  align-self: stretch;
+  text-align: center;
+  width: 100%;
+}
+
+.oo_container {
+  display: flex;
+}
+
+.oo_item {
+  flex-grow: 1;
+  height: 100px;
+}
+
+.oo_item {
+  margin-left: 2%;
+}

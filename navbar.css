@@ -1,0 +1,44 @@
+/* Zorgt ervoor dat er geen irritante witte randen zijn */
+body {
+    margin: 0px;
+}
+
+/* Zorgt ervoor dat de rest van de text een marge heeft */
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Zet de titel van de pagina in het midden */
+h1 {
+    text-align: center;
+}
+
+/* Van navbar moeten alle lists geen bulletpoints hebben, geen marges, en een kleur */
+.navbar ul {
+    list-style-type: none;
+    background-color: rgb(86, 86, 86);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    height: 50px;
+}
+
+/* Van navbar moeten alle linkjes wit zijn, zonder streep, text in het midden, maakt voor elk linkje een aparte block */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+/* Als je over de link gaat dan moet die van kleur veranderen */
+.navbar a:hover {
+    background-color: rgb(57, 57, 57);
+}
+
+/* Laat de navbar links beginnen */
+.navbar li {
+    float: left;
+}
